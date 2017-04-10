@@ -32,7 +32,7 @@ public class Empregado implements Serializable {
     @GeneratedValue
     private int id;
     private String nome;
-    @OneToMany(fetch = FetchType.EAGER, targetEntity = Dependente.class, 
+    @OneToMany(fetch = FetchType.LAZY, targetEntity = Dependente.class, 
             cascade = CascadeType.PERSIST)
     @JoinColumn(name = "Chave_Emp")
     private Collection<Dependente> dependentes;

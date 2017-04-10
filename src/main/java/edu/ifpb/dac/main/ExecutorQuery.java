@@ -25,7 +25,7 @@ public class ExecutorQuery {
         consultaDoNome();
         consultaUsandoConstrutor();
         consultaSemConstrutor();
-        /*susandoIn();
+        usandoIn();
         usandoJoin();
         usandoLeftJoin();
         consultaDistinct();
@@ -41,8 +41,8 @@ public class ExecutorQuery {
          groupBy();
          subConsultasI();
          subconsultas(); 
-         consultaNomeadaSemParametro();
-         consultaNomeadas(); */
+//         consultaNomeadaSemParametro();
+//         consultaNomeadas(); 
     }
 
     private static void expressoesFuncionaisI() {
